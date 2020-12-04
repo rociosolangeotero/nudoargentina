@@ -1,0 +1,132 @@
+.no-gutters {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+/*NAVBAR*/
+.navbar {
+   background-color: white !important;
+   font-family: 'Anton';
+   font-size: 1.2rem;
+   color: black !important;
+}
+
+.nav-item{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.nav-item :hover {
+    background-color: #ffe2e2;
+    color: #fafcc2 !important;
+    border-radius: 2rem;
+}
+
+.logo{
+    width: 100px;
+}
+.logo  {
+    transition: height 3s, width 3s;
+}
+
+.logo:hover {
+    
+    height: 250px;
+    width: 250px;
+}
+/*CAROUSEL*/
+
+.carousel-item {
+    height: 500px;
+}
+
+.slide1 {
+    background-size: cover;
+    background-position: center center;
+}
+
+.slide2 {
+    background-size: cover;
+    background-position: center center;
+}
+
+/*NOSOTROS*/
+.nosotros {
+   font-family: 'Anton';
+   font-size: 1.5rem;
+   padding: 2rem 2rem;
+}
+
+/*PRODUCTOS*/
+.souvenirs  {
+    transition: height 3s, width 3s;
+}
+
+.souvenirs:hover {
+    
+    height: 330px;
+    width: 330px;
+}
+
+.alfombras  {
+    transition: height 3s, width 3s;
+}
+
+.alfombras:hover {
+    
+    height: 330px;
+    width: 330px;
+}
+
+.almohadones  {
+    transition: height 3s, width 3s;
+}
+
+.almohadones:hover {
+    
+    height: 330px;
+    width: 330px;
+}
+
+.mas  {
+    transition: height 3s, width 3s;
+}
+
+.mas:hover {
+    
+    height: 330px;
+    width: 330px;
+}
+#text1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    
+}
+#text2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+}
+.column {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+
+/*Contacto*/
+
+.contacto {
+    font-family: 'Anton';
+    font-size: 1.5rem;
+    padding: 2rem 2rem;
+}
